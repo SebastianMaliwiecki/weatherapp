@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: black;
 }
 
 code {
@@ -23,7 +24,6 @@ code {
   overflow: auto;
   margin-left: auto;
   margin-right: auto;
-  border-radius: 25px;
   text-decoration: none;
 }
 
