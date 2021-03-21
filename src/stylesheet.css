@@ -1,0 +1,165 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.app {
+  background-image: linear-gradient(to bottom ,rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('https://www.fonewalls.com/wp-content/uploads/1242x2688-Background-HD-Wallpaper-013-300x649.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  width: 414px;
+	height: 736px;
+  position: relative;
+  overflow: auto;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 25px;
+  text-decoration: none;
+}
+
+.searchBox {
+  width: 100%;
+  margin: 0 0 50px;
+}
+
+.searchBox .searchBoxInput {
+  display: block;
+  width: 100%;
+  padding: 10px;
+
+  appearance: none;
+  background: none;
+  border: none;
+  outline: none;
+
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 16px 16px 16px 16px;
+
+  box-shadow: 7px 7px rgba(0, 0, 0, 0.7);
+
+  color: black;
+  font-size: 17px;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.searchBox .searchBoxInput:focus{
+  background-color: rgba(255, 255, 255, 0.75);
+}
+
+
+main {
+  min-height: 100vh;
+  padding: 25px;
+}
+
+.weather {
+  text-align: center;
+  color: white;
+}
+
+.weather .temperature {
+  background-color: rgba(255, 255, 255, 0.3);
+  display: block;
+  border-radius: 16px;
+  padding: 10px 20px;
+  font-size: 100px;
+  text-shadow: 5px 5px rgba(0, 0, 0, 0.7);
+  font-weight: bold;
+  
+  box-shadow: 5px 5px rgba(0, 0, 0, 0.7);
+}
+
+.weather .temperature p {
+  font-size: 30px;
+  font-weight: bold;
+  padding-top: 0;
+}
+
+.weather .weatherDesc, .LocationDate .location, .hourlyForecast, .forecastOptions, 
+.rainhumidity, .sunsetrise, .enterDestination, .location, .windpressure
+{
+  background-color: rgba(255, 255, 255, 0.3);
+  margin-top: 10px;
+  display: block;
+  border-radius: 16px;
+  padding: 15px 25px;
+  font-size: 40px;
+  text-shadow: 3px 3px rgba(0, 0, 0, 0.7);
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  box-shadow: 5px 5px rgba(0, 0, 0, 0.7);
+}
+
+.enterDestination {
+  font-size: 25px;
+}
+
+.weather .weatherDesc {
+  font-size: 30px;
+}
+
+.forecastOptions {
+  width: 100%;
+  font-size: 20px;
+}
+
+.forecastOptions .options {
+  text-align: center;
+  color: white;
+  background-color: grey;
+  font-weight: bold;
+}
+
+.LocationDate .location {
+  font-size: 30px;
+}
+
+.hourlyForecast .forecast li {
+  font-size: 23px;
+  text-align: left;
+  list-style: none;
+}
+
+.hourlyForecast p {
+  font-size: 27px;
+  text-align: left;
+}
+
+.hourlyForecast .test {
+  font-size: 50px;
+}
+
+.hourlyForecast .forecast .solid {
+  margin-top: 4px;
+}
+
+.hourlyForecast table{
+  width: 100%;
+  font-size: 25px;
+}
+
+.hourlyForecast table .leftBorder {
+  border-left: 2px solid white;
+  border-radius: 25px;
+}
+
+.rainhumidity table, .sunsetrise table, .windpressure table {
+  font-size: 15px;
+  width: 100%;
+  text-align: left;
+}
+.rainhumidity table .bigFont, .sunsetrise .bigFont, .windpressure .bigFont {
+  font-size: 40px;
+}

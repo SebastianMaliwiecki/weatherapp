@@ -1,0 +1,7 @@
+/* CSS reset for the webpages to remove any browser styles */
+* {   
+	margin: 0;   
+	padding: 0;   
+	border: 0; 
+	box-sizing: border-box;
+}
